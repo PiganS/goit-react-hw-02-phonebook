@@ -9,6 +9,10 @@ export const Contact = styled.li`
   margin-top: 5px;
 `;
 
+export const ContactText = styled.p`
+  overflow: hidden;
+`;
+
 export const ButtonDel = styled.button`
   border-radius: 5px;
   border: none;

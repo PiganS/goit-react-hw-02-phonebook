@@ -23,7 +23,7 @@ export class App extends Component {
 
   addsNewContact = newContact => {
     const hasDuplicates = this.state.contacts.some(
-      product => product.name === newContact.name
+      product => product.name.toLowerCase() === newContact.name.toLowerCase()
     );
 
     if (hasDuplicates) {
